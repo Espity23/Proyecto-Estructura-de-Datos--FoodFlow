@@ -22,17 +22,11 @@ Requisitos
 - Tener instalado Java JDK 21 o una versión compatible.
 - Contar con los archivos fuente del proyecto.
 
-Cómo ejecutar el programa
+Para compilar el proyecto, ejecutar desde la terminal:
 
-1. Abre una terminal en la carpeta que contiene los archivos ".java".
-
-2. Compila el proyecto:
-   
-   "javac Hola.java Producto.java DetallePedido.java Pedido.java Restaurante.java"
-
-3. Ejecuta la aplicación:
-   
-   "java Hola"
+cd FoodFlow
+javac -encoding UTF-8 *.java
+java FoodFlow
 
 Este proyecto para su realizacion tuvo partes de su desarollo con la asistencia de la IA, aproxidamente fue un 25% uso de 
 
